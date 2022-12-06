@@ -1,7 +1,9 @@
+// 购物车状态
 export default {
-    state(){
-        return{
-
+    namespaced: true,
+    state: () => {
+        return {
+            list: []
         }
     }
 }
