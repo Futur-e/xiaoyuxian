@@ -7,6 +7,8 @@ import XtxSkeleton from './xtx-skeleton.vue'
 import xtxCarousel from "@/components/library/xtx-carousel";
 import XtxCarousel from "@/components/library/xtx-carousel";
 import XtxMore from '@/components/library/xtx-more.vue'
+
+
 export default {
     install (app) {
         // 在app上进行扩展，app提供 component directive 函数
@@ -14,5 +16,6 @@ export default {
         app.component(XtxSkeleton.name, XtxSkeleton)
         app.component(xtxCarousel.name,XtxCarousel)
         app.component(XtxMore.name, XtxMore)
+
     }
 }
